@@ -11,12 +11,12 @@ datasource db {
 }
 
 model Module {
-  id             Int        @id @default(autoincrement())
-  name           String?    @unique
+  id             Int       @id @default(autoincrement())
+  name           String?   @unique
   creator        String?
   singleLineText String[]
   number         String[]
-  dateNTime      DateTime[]
+  datetime       String[]
   image          String[]
   toggle         Boolean[]
   email          String[]
@@ -30,8 +30,8 @@ model Module {
   currency       String[]
   fileLink       String[]
   link           String[]
-  createdAt      DateTime   @default(now())
-  updatedAt      DateTime   @updatedAt
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
 
   @@map("modules")
 }
