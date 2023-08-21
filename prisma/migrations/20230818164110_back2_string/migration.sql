@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "modules" ALTER COLUMN "singleLineText" SET DATA TYPE TEXT[],
+ALTER COLUMN "number" SET DATA TYPE TEXT[],
+ALTER COLUMN "picker" SET DATA TYPE TEXT[];
