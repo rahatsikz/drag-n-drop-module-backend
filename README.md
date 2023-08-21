@@ -2,6 +2,12 @@
 
 ## How to Run:
 
+First, install all dependencies
+
+```
+npm install
+```
+
 Give this Command to run in localhost
 
 ```
